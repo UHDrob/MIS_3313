@@ -1,4 +1,9 @@
 
+body {
+    background-image: url("../images/stucco/stucco.png");
+}
+
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -48,6 +53,9 @@ nav[role="sub"] ul li a {
     clear: both;
     display: table;
 }
+
+
+
 
 footer {
     background-color: #333;
