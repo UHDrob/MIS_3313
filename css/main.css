@@ -4,6 +4,9 @@ body {
     padding: 0 20px;
 }
 
+h1 {
+    margin-block: 0px;
+}
 
 nav ul {
     list-style-type: none;
@@ -17,6 +20,7 @@ nav[role="main"] ul {
 nav[role="sub"] ul {
     background-color: aliceblue;
     border-style: solid;
+    color: lightgreen;
 }
 
 nav[role="main"] ul li {
@@ -29,7 +33,7 @@ nav[role="sub"] ul li {
 nav ul li a {
     display:block;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 30px;
 }
 
 
@@ -37,7 +41,6 @@ nav[role="main"] ul li a {
     color: white;
 }
 nav[role="sub"] ul li a {
-    color: red;
     display: block;
 }
 
