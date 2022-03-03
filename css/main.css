@@ -1,6 +1,7 @@
 
 body {
     background-image: url("../images/stucco/stucco.png");
+    padding: 0 20px;
 }
 
 
@@ -41,7 +42,19 @@ nav[role="sub"] ul li a {
 }
 
 
+.column {
+    float: left;
+    width: 25%;
+}
+.row:after {
+    content: "";
+    display:table;
+    clear:both;
+}
 
+.pics {
+    background-color: white;
+}
 
 .img-container {
     float:left;
