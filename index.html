@@ -4,64 +4,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MIS 3313 - Homework 4</title>
-    <link rel="stylesheet" href="css/main.css">
-
+    <link rel="stylesheet" href="css/table.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Tables</title>
 </head>
 <body>
-    
-    <header>
-        <nav role="main"">
-            <ul>
-                <li ><a href="checkout.html">Check out</a></li>
-                <li ><a href="shoppingcart.html">Shopping Cart</a></li>
-                <li ><a href="wishlist.html">Wish List</a></li>
-                <li ><a href="myaccount..html">My Account</a></li>
-            </ul>
-        </nav >
-        
-        <h1>Art Store</h1>
-
-        <nav role="sub">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="artworks.html">Art Works</a></li>
-                <li><a href="artists.html">Artists</a></li>
-            </ul>
-        </nav>
-    </header>
-
     <main>
-        <h3>Self-portrait in a Straw Hat</h3>
-        <p>By <a href="artists.html">Louise Elizabeth Lebrun</a></p>
-        
-        <div class="clearfix">
-            <div class="img-container">
-                <img src="images/113010-m.jpg" alt="old painting of a woman with a hat">
-            </div>
-            <div  class="description">  
-                <p>
-                    The painting appears, after cleaning, to be an authograph replica of apicture, the original of which was painted in Brusels in 1782 in free imitation of Ruben's Chapeau de Pasille, which LeBrun had seen in Antwerp. It was exhibited in Paris in 1782 at the Salon de la Corresponcence. LeBrun's original is recorded in a private colleciton in France
-                </p>
-                <br>
-                <p>$700</p>
-                <br>
-                <h3>Product Details</h3>
-                <pre>
-Date: 1782
-Medium: Oil on canvas
-Dimension: 98cm x 71cm
-                </pre>
-            </div>
+        <h1>Tables
+        </h1>
+
+        <div class="data">
+            <p class="maintitle">Data</p>
+            <p class="title">Orders</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Date</th>
+                        <th>Customer</th>
+                        <th>Country</th>
+                        <th>Progress</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>123</td>
+                        <td>Sep 12, 2017</td>
+                        <td>Jean Rousseau</td>
+                        <td>France</td>
+                        <td>
+                            <div class="w3-light-grey w3-round-xlarge">
+                                <div class="w3-container w3-blue w3-round-xlarge" style="width:100%"></div>
+                            </div>
+                        </td>
+                        <td><button id="shipped">Shipped</button></td>
+                    </tr>
+                    <tr>
+                        <td>144</td>
+                        <td>Sep 20, 2017</td>
+                        <td>Georg Hegel</td>
+                        <td>Germany</td>
+                        <td>
+                            <div class="w3-light-grey w3-round-xlarge">
+                                <div class="w3-container w3-blue w3-round-xlarge" style="width:100%"></div>
+                            </div>
+                        </td>
+                        <td><button id="shipped">Shipped</button></td>
+                    </tr>
+                    <tr>
+                        <td>149</td>
+                        <td>Oct 3, 2017</td>
+                        <td>John Locke</td>
+                        <td>England</td>
+                        <td>
+                            <div class="w3-light-grey w3-round-xlarge">
+                                <div class="w3-container w3-blue w3-round-xlarge" style="width:50%"></div>
+                            </div>
+                        </td>
+                        <td><button id="processing">Processing</button></td>
+                    </tr>
+                    <tr>
+                        <td>162</td>
+                        <td>Oct 8, 2017</td>
+                        <td>Thomas Hobbes</td>
+                        <td>England</td>
+                        <td>
+                            
+                                <div class="w3-light-grey w3-round-xlarge">
+                                    <div class="w3-container w3-blue w3-round-xlarge" style="width:25%"></div>
+                                </div>
+                            
+
+                        </td>
+                        <td><button id="pending">Pending</button></td>
+                    </tr>
+                    <tr>
+                        <td>172</td>
+                        <td>Oct 10, 2017</td>
+                        <td>Johann Fichte</td>
+                        <td>Germany</td>
+                        <td>
+                            <div class="w3-light-grey w3-round-xlarge">
+                                <div class="w3-container w3-blue w3-round-xlarge" style="width:25%"></div>
+                            </div>
+                        </td>
+                        <td><button id="pending">Pending</button></td>
+                    </tr>
         </div>
+
+            </tbody>
+
+        </table>
     </main>
-
-
-
-    <footer>
-        <p> <small> All imgaes are copyright to their owners. This is just a hypothetical site &copy; 2014 Copyright Art Store </small></p>
-    </footer>
     
 </body>
 </html>
