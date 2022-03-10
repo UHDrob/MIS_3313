@@ -27,7 +27,7 @@ body {
 table {
     margin: 0 50px 5px 50px;
     text-align: left;
-    table-layout: fixed;
+    
 }
 
 th {
