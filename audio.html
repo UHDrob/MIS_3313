@@ -28,7 +28,7 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                        <li class="nav-item"><a class="nav-link me-lg-3" href="png.html">PNG</a></li>
+                        <li class="nav-item"><a class="nav-link me-lg-3" href="index.html">Home</a></li>
                         <li class="nav-item"><a class="nav-link me-lg-3" href="raster.html">Raster</a></li>
                         <li class="nav-item"><a class="nav-link me-lg-3" href="vector.html">Vector</a></li>
                         <li class="nav-item"><a class="nav-link me-lg-3" href="video.html">Video</a></li>
@@ -50,15 +50,12 @@
                     <div class="col-lg-6">
                         <!-- Mashead text and app badges-->
                         <div class="mb-5 mb-lg-0 text-center text-lg-start">
-                            <h1 class="display-1 lh-1 mb-3">MIS 3313 Projects.</h1>
+                            <h1 class="display-1 lh-1 mb-3">WEB Design</h1>
                             <p class="lead fw-normal text-muted mb-5">Showcase Web Technologies such as HTML5, CSS3, and Bootstrap!</p>
                             <h2> Audio </h2>
                         </div>
                     </div>
 
-                    <div class="d-flex flex-column flex-lg-row align-items-center">
-
-                    </div>
 
                     <div class="col-lg-6">
                         <!-- Masthead device mockup feature-->
@@ -77,8 +74,12 @@
                             ><svg class="shape-2 d-none d-sm-block" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"></circle></svg>
                             <div class="device-wrapper">
                                 <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
-                                    <div class="screen bg-black">
+                                    <div class="screen bg-white">
                                         <!-- PUT CONTENTS HERE:-->
+                                        <br><br>
+                                        <audio controls loop autoplay ">
+                                            <source src="media/Audio/falling-zayner-main-version-03-15-2157.mp3" type="audio/mpeg">
+                                        </audio> 
                                         <!-- * * This can be a video, image, or just about anything else.-->
                                         <!-- * * Set the max width of your media to 100% and the height to-->
                                         <!-- * * 100% like the demo example below.-->
@@ -96,8 +97,10 @@
             <div class="container px-5">
                 <div class="row gx-5 justify-content-center">
                     <div class="col-xl-8">
-                        <div class="h2 fs-1 text-white mb-4">"An intuitive solution to a common problem that we all face, wrapped up in a single app!"</div>
-                        <img src="assets/img/tnw-logo.svg" alt="..." style="height: 3rem" />
+                        <div class="h2 fs-1 text-white mb-4">"The &lt; audio &gt; HTML element is used to embed sound countent in documents. It may contain one or more audio sources, represented using the src attribute or the &lt; source &gt; element: the Browser will choose the most suitable one. It can also be the destination for streamed media, using a MediaStream.</div>
+                        <audio controls loop autoplay width="235px">
+                            <source src="media/Audio/falling-zayner-main-version-03-15-2157.mp3" type="audio/mpeg">
+                        </audio> 
                     </div>
                 </div>
             </div>
@@ -113,34 +116,35 @@
                                     <!-- Feature item-->
                                     <div class="text-center">
                                         <i class="bi-phone icon-feature text-gradient d-block mb-3"></i>
-                                        <h3 class="font-alt">Device Mockups</h3>
-                                        <p class="text-muted mb-0">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                                        <h3 class="font-alt">Autoplay</h3>
+                                        <p class="text-muted mb-0">A Boolean attribute; if specified, the audio will automatically begin playback as soon as it can do so, without waiting for the entire audio file to finish downloading.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6 mb-5">
                                     <!-- Feature item-->
                                     <div class="text-center">
-                                        <i class="bi-camera icon-feature text-gradient d-block mb-3"></i>
-                                        <h3 class="font-alt">Flexible Use</h3>
-                                        <p class="text-muted mb-0">Put an image, video, animation, or anything else in the screen!</p>
+                                        <i class="bi-phone icon-feature text-gradient d-block mb-3"></i>
+                                        <h3 class="font-alt">Controls</h3>
+                                        <p class="text-muted mb-0">If this attribute is present, the browser will offer controls to allow the user to control audio playback, including volume, seeking, and pause/resume playback.</p>
                                     </div>
                                 </div>
+
                             </div>
                             <div class="row">
                                 <div class="col-md-6 mb-5 mb-md-0">
                                     <!-- Feature item-->
                                     <div class="text-center">
-                                        <i class="bi-gift icon-feature text-gradient d-block mb-3"></i>
-                                        <h3 class="font-alt">Free to Use</h3>
-                                        <p class="text-muted mb-0">As always, this theme is free to download and use for any purpose!</p>
+                                        <i class="bi-phone icon-feature text-gradient d-block mb-3"></i>
+                                        <h3 class="font-alt">Loop</h3>
+                                        <p class="text-muted mb-0">A Boolean attribute: if specified, the audio plaer will automatically seek back to the start upon reaching the end of the audio.</p>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <!-- Feature item-->
                                     <div class="text-center">
-                                        <i class="bi-patch-check icon-feature text-gradient d-block mb-3"></i>
-                                        <h3 class="font-alt">Open Source</h3>
-                                        <p class="text-muted mb-0">Since this theme is MIT licensed, you can use it commercially!</p>
+                                        <i class="bi-phone icon-feature text-gradient d-block mb-3"></i>
+                                        <h3 class="font-alt">src</h3>
+                                        <p class="text-muted mb-0">The URL of the audio to be embeded. This is subject to HTTP access controls. This is optional; you may instead use the &lt source &gt; element within the audio block to specify the audio to embed.</p>
                                     </div>
                                 </div>
                             </div>
@@ -177,48 +181,12 @@
                 </div>
             </div>
         </section>
-        <!-- Basic features section-->
-        <section class="bg-light">
-            <div class="container px-5">
-                <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
-                    <div class="col-12 col-lg-5">
-                        <h2 class="display-4 lh-1 mb-4">Enter a new age of web design</h2>
-                        <p class="lead fw-normal text-muted mb-5 mb-lg-0">This section is perfect for featuring some information about your application, why it was built, the problem it solves, or anything else! There's plenty of space for text here, so don't worry about writing too much.</p>
-                    </div>
-                    <div class="col-sm-8 col-md-6">
-                        <div class="px-5 px-sm-0"><img class="img-fluid rounded-circle" src="https://source.unsplash.com/u8Jn2rzYIps/900x900" alt="..." /></div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Call to action section-->
-        <section class="cta">
-            <div class="cta-content">
-                <div class="container px-5">
-                    <h2 class="text-white display-1 lh-1 mb-4">
-                        Stop waiting.
-                        <br />
-                        Start building.
-                    </h2>
-                    <a class="btn btn-outline-light py-3 px-4 rounded-pill" href="https://startbootstrap.com/theme/new-age" target="_blank">Download for free</a>
-                </div>
-            </div>
-        </section>
-        <!-- App badge section-->
-        <section class="bg-gradient-primary-to-secondary" id="download">
-            <div class="container px-5">
-                <h2 class="text-center text-white font-alt mb-4">Get the app now!</h2>
-                <div class="d-flex flex-column flex-lg-row align-items-center justify-content-center">
-                    <a class="me-lg-3 mb-4 mb-lg-0" href="#!"><img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." /></a>
-                    <a href="#!"><img class="app-badge" src="assets/img/app-store-badge.svg" alt="..." /></a>
-                </div>
-            </div>
-        </section>
+
         <!-- Footer-->
         <footer class="bg-black text-center py-5">
             <div class="container px-5">
                 <div class="text-white-50 small">
-                    <div class="mb-2">&copy; Your Website 2022. All Rights Reserved.</div>
+                    <div class="mb-2">&copy; Roberto Gomez 2022. All Rights Reserved.</div>
                     <a href="#!">Privacy</a>
                     <span class="mx-1">&middot;</span>
                     <a href="#!">Terms</a>
@@ -276,9 +244,7 @@
                             <div class="d-none" id="submitSuccessMessage">
                                 <div class="text-center mb-3">
                                     <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+
                                 </div>
                             </div>
                             <!-- Submit error message-->
