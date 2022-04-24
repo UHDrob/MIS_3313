@@ -2,8 +2,10 @@
 function outputBooks() {
     for (i=0; i<countries.length;i++) {
        document.write(
-       "<h2 >" + countries[i].country + "</h2>" + 
-       "<h3>" + countries[i].continent + "</h3><br>"
+       "<h2>" +  countries[i].country + "</h2>"  +
+         "<p>" +
+        countries[i].continent 
+        + "</p>" 
        );
        outputAuthors(countries[i]);
     }
