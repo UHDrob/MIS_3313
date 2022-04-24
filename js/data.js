@@ -1,21 +1,22 @@
 /* add in your data here */
-var books = [
-  { title: "Canada",
-    publisher: "North America",
-    authors: [
-     {lastName: "Calgary" }]
+var countries = [
+  { country: "Canada",
+    continent: "North America",
+    cities: [
+     {city: "Calgary" }]
   }, ,
-  { title: "United States",
-    publisher: "North America",
-    authors: [
-     {lastName: "Boston" },
-     {lastName: "Chicago" }]
+  { country: "United States",
+    continent: "North America",
+    cities: [
+     {city: "Boston" },
+     
+     {city: "Chicago" }]
   },
-  { title: "Italy",
-    publisher: "Europe",
-    authors: [
-     {lastName: "Florence" },
-     {lastName: "Milan" },
-     {lastName: "Naples" }]
+  { country: "Italy",
+    continent: "Europe",
+    cities: [
+     {city: "Florence" },
+     {city: "Milan" },
+     {city: "Naples" }]
     }
 ];
