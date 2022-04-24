@@ -1,7 +1,10 @@
 /* add in your functions here */
 function outputBooks() {
     for (i=0; i<countries.length;i++) {
-       document.write("<h2>" + countries[i].country + "</h2>" + countries[i].continent + "<br>");
+       document.write(
+       "<h2 >" + countries[i].country + "</h2>" + 
+       "<h3>" + countries[i].continent + "</h3><br>"
+       );
        outputAuthors(countries[i]);
     }
  }
