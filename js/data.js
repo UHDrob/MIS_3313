@@ -18,5 +18,10 @@ var countries = [
      {city: "Florence" },
      {city: "Milan" },
      {city: "Naples" }]
+    },
+    {
+      country: "Spain",
+      continent: "Europe",
+
     }
 ];
