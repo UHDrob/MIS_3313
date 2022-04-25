@@ -8,8 +8,8 @@ let countries = [
      {city: 'Toronto' }],
      photos: [
       {source: "images/canada1.jpg" },
-      {source: "images/canada2.jpg"},
-      {source: "imaegs/canada3.jpg" }]
+      {source: "images/canada2.jpg" },
+      {source: "images/canada3.jpg" }]
   }, 
 
   { country: "United States",

@@ -19,13 +19,13 @@ function outputCountries() {
          city.cities[j].city  + "<br>");
     }
     document.write( "</p>" +  
-      "<p class='inner-box'><strong>Popular Photos</strong></p>");
+      "<p class='inner-box'><strong>Popular Photos</strong><br>");
       for (k=0; k<city.photos.length;k++) {
          document.write( "<img class='photo' src='" +
             city.photos[k].source
              + "'>");
       }  
-    document.write(  
+    document.write(  "</p>" +
       "<button>Visit</button>    <br>" );
       
  }
