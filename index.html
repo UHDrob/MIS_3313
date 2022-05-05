@@ -102,10 +102,14 @@
     <br><br>
         <div class="data">
             <p class="maintitle">Revise</p>
-            <form action="http://www.randyconnolly.com/tests/process.php" method="get">
+            <form name='mainForm' action="http://www.randyconnolly.com/tests/process.php" method="get">
 
                 <label for="text" id="customer" >Customer</label> <br>
-                <input type="text" placeholder="Enter name" name="customer">  <br> <br>
+                <input type="text" 
+                    onchange="check(this);"
+                    onfocus="highlight(this, true);"
+                    onblur="highlight(this, false);"
+                    placeholder="Enter name" name="customer">  <br> <br>
 
                 <label for="text">Country</label> <br>
                     <select id="country" name="country" value="Choose a country">
@@ -129,7 +133,8 @@
                 <label for="text" id="orderdate">Order Date</label> <br>
                 <input type="date" name="orderdate">  <br> <br>
 
-                <input type="submit" value="Submit" class="button">
+                <input type="submit" value="Submit" class="button"
+                    onclick="function (e);" >
                 <input type="reset" value="Clear Form" class="button">
 
             </form>
