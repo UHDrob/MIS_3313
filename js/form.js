@@ -2,7 +2,7 @@ funtion validate() {
 
     let x = document.forms["mainForm"]["customer"].value;
     if (name == "") {
-        alert("Name must be filled out");
+        alert("Please enter a name");
         return false;
     }
 };
