@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/table.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
     <title>Tables + Forms</title>
 </head>
 <body>
@@ -97,12 +98,13 @@
 
             </tbody>
 
+
         </table>
     </div>
     <br><br>
         <div class="data">
             <p class="maintitle">Revise</p>
-            <form name='mainForm' action="http://www.randyconnolly.com/tests/process.php" method="get">
+            <form name="mainForm" action="http://www.randyconnolly.com/tests/process.php" method="get" onsubmit="return validate()">
 
                 <label for="text" id="customer" >Customer</label> <br>
                 <input type="text" 
@@ -143,6 +145,6 @@
 
         </div>
     </main>
-    
+    <script src="js/form.js"></script>
 </body>
 </html>
