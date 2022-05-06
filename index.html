@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <title>Tables + Forms</title>
+    
 </head>
 <body>
     <main>
@@ -104,30 +105,28 @@
     <br><br>
         <div class="data">
             <p class="maintitle">Revise</p>
-            <form name="mainForm" action="http://www.randyconnolly.com/tests/process.php" method="get" onsubmit="return validate()">
-
-                <label for="text" id="customer" >Customer</label> <br>
+            
+            <form name="loginForm" action="http://www.randyconnolly.com/tests/process.php" method="post">
+             
+                <label for="text" id="customer"  >Customer</label> <br>
                 <input type="text" 
-                    onchange="check(this);"
-                    onfocus="highlight(this, true);"
-                    onblur="highlight(this, false);"
                     placeholder="Enter name" name="customer">  <br> <br>
 
                 <label for="text">Country</label> <br>
                     <select id="country" name="country" value="Choose a country">
-                        <option value="choose" selected>Choose a country</option>
-                        <option value="england">England</option>
-                        <option value="french">French</option>
-                        <option value="germany">Germany</option>
+                        <option value="0" selected>Choose a country</option>
+                        <option value="1">England</option>
+                        <option value="2">French</option>
+                        <option value="3">Germany</option>
                     </select>
                 <br><br>
 
                 <label for="text">Status</label> <br>
-                  <input type="radio" id="pending" name="status" value="Pending" checked>
+                  <input type="radio" id="pending" name="status" value="0" >
                   <label for="html" >Pending</label>
-                  <input type="radio" id="css" name="status" value="processing">
+                  <input type="radio" id="css" name="status" value="1">
                   <label for="processing">Processing</label>
-                  <input type="radio" id="javascript" name="status" value="Shipped">
+                  <input type="radio" id="javascript" name="status" value="2">
                   <label for="shipped">Shipped</label>
 
 
@@ -135,8 +134,11 @@
                 <label for="text" id="orderdate">Order Date</label> <br>
                 <input type="date" name="orderdate">  <br> <br>
 
-                <input type="submit" value="Submit" class="button"
-                    onclick="function (e);" >
+
+                  
+                <input type="submit" value="Submit" class="button" name="submit" >
+                
+            
                 <input type="reset" value="Clear Form" class="button">
 
             </form>
