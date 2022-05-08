@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 15</title>
+
+    <link rel="stylesheet" href="chapter9.css">
+</head>
+<body>
+    <section>
+        <h3>Data</h3>
+        <table id="calendar">
+            <caption>Orders</caption>
+            
+            <thead>
+                <tr>
+                    <th scope="col" title="Id">Id</th>
+                    <th scope="col" title="Date">Date</th>
+                    <th scope="col" title="Customer">Customer</th>
+                    <th scope="col" title="Country">Country</th>
+                    <th scope="col" title="Progress">Progress</th>
+                    <th scope="col" title="Status">Status</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>123</td>
+                    <td>Sep 12, 2017</td>
+                    <td>Jean Rousseau</td>
+                    <td>France</td>
+                    <td> <progress max="100" value="100">100%</progress> </td>
+                    <td> <span class="status status-shipped">Shipped</span> </td>
+                </tr>
+                <tr>
+                    <td>144</td>
+                    <td>Sep 20, 2017</td>
+                    <td>Gerog Hegel</td>
+                    <td>Germany</td>
+                    <td> <progress max="100" value="100">100%</progress> </td>
+                    <td> <span class="status status-shipped">Shipped</span> </td>
+                </tr>
+                <tr>
+                    <td>149</td>
+                    <td>Oct 3, 2017</td>
+                    <td>John Locke</td>
+                    <td>England</td>
+                    <td> <progress max="100" value="60">60%</progress> </td>
+                    <td> <span class="status status-processing">Processing</span> </td>
+                </tr>
+                <tr>
+                    <td>162</td>
+                    <td>Ict 8, 2017</td>
+                    <td>Thomas Hobbes</td>
+                    <td>England</td>
+                    <td> <progress max="100" value="30">30%</progress> </td>
+                    <td> <span class="status status-pending">Pending</span> </td>
+                </tr>
+                <tr>
+                    <td>177</td>
+                    <td>Oct10, 2017</td>
+                    <td>Johann Fichter</td>
+                    <td>Germany</td>
+                    <td> <progress max="100" value="30">30%</progress> </td>
+                    <td> <span class="status status-pending">Pending</span> </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h3>Revise</h3>
+        <!--   FORM ID-->
+        <form id="formId" method="get" action="http://www.randyconnolly.com/tests/process.php">
+            <p><label for="">Customer</label><br>
+            <input type="text" id="username" placeholder="Enter name"></p>
+
+            <p><label for="">Country</label><br>
+            <select name="" id="countrieslist">
+                <option value="">Choose a country</option>
+                <option value="">England</option>
+                <option value="">France</option>
+                <option value="">Germany</option>
+            </select>   </p>
+
+            <p>
+                <label for="">Status</label><br>
+                    <input id="rd1" type="radio" name="Stat" value="pending">Pending
+                    <input id="rd2" type="radio" name="Stat" value="processing">Processing
+                    <input id="rd3" type="radio" name="Stat" value="shipped">Shipped
+            </p>
+            <p><input type="submit" text="Add Meeting">   
+            <input type="reset" values="Clear Form"></p>
+        </form>
+    </section>
+
+    <script scr="function.js" type="text/JavaScript"></script>
+
+</body>
+</html>
